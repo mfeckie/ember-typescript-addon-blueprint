@@ -1,0 +1,29 @@
+{
+  "name": "<%= name %>",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Small description for <%= name %> goes here",
+  "repository": "",
+  "license": "MIT",
+  "author": "",
+  "keywords": [
+    "ember-addon",
+    "typescript"
+  ],
+  "directories": {
+    "doc": "doc",
+    "test": "tests"
+  },
+  "scripts": {
+    "test:node": "mocha -r register-ts-node ts/tests/**/*.ts",
+    "prepublishOnly": "yarn tsc --noEmit false --project ts",
+    "postpublish": "rimraf js"
+  },
+  "devDependencies": {
+    "@types/mocha": "8.0.4",
+    "mocha": "8.2.1",
+    "rimraf": "3.0.2",
+    "ts-node": "^9.1.0",
+    "typescript": "4.0.3"
+  }
+}
