@@ -2,7 +2,6 @@
   "name": "ember-typescript-addon-blueprint",
   "version": "0.0.1",
   "description": "A blueprint for creating ember-cli addons written in TypeScript",
-  "main": "index.js",
   "author": "mfeckie",
   "repository": "https://github.com/mfeckie/ember-typescript-addon-blueprint",
   "license": "MIT",
