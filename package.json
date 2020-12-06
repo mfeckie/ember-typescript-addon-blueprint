@@ -4,5 +4,9 @@
   "description": "A blueprint for creating ember-cli addons written in TypeScript",
   "main": "index.js",
   "author": "mfeckie",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "ember-addon",
+    "typescript"
+  ]
 }
