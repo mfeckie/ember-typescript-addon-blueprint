@@ -17,3 +17,5 @@ Use with yarn for package management
 ## Acknowledgements
 
 This work is very heavily borrowed from [Ember CLI TypeScript](https://github.com/typed-ember/ember-cli-typescript).  
+
+The approach was also used to create [Fast SASS](https://github.com/mfeckie/fast-sass), an alternative to `ember-cli-sass`
